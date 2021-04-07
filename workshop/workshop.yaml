@@ -1,0 +1,9 @@
+name: CKAD Practice - Multi-Container Pods
+
+modules:
+  activate:
+  - workshop-overview
+  - preface
+  - exercises/01-problem
+  - validate
+  - workshop-summary

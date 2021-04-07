@@ -1,0 +1,14 @@
+---
+modules:
+  workshop-overview:
+    name: Workshop Overview
+  preface:
+    name: Preface
+    exit_sign: Start Workshop
+  exercises/01-problem:
+    name: Problem 1
+  validate:
+    name: Validate your solutions
+  workshop-summary:
+    name: Workshop Summary
+    exit_sign: Finish Workshop

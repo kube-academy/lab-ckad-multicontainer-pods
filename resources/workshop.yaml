@@ -1,0 +1,30 @@
+---
+apiVersion: training.eduk8s.io/v1alpha2
+kind: Workshop
+metadata:
+  name: ckad-practice-multicontainer-pods
+spec:
+  title: CKAD Practice - Multi-Container Pods
+  description: A port of the Multi-Container Pods section of Liptan Biswas' CKAD practice challenge
+  vendor: kube.academy
+  difficulty: beginner
+  duration: 20m
+  url: https://github.com/kube-academy/lab-ckad-multicontainer-pods
+  content:
+    files: github.com/kube-academy/lab-ckad-multicontainer-pods
+  session:
+    namespaces:
+      security:
+        policy: anyuid
+      budget: medium
+      secondary:
+      - name: $(session_namespace)-apps
+        budget: small
+    applications:
+      terminal:
+        enabled: true
+        layout: default
+      editor:
+        enabled: true
+      examiner:
+        enabled: true
