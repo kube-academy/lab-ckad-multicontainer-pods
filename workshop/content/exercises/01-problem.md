@@ -1,5 +1,5 @@
 
-1. Create a pod `mp-hello` with three containers, each with image `bitnami/nginx`, `bitnami/kubectl` and `bitnami/consul`, respectively. Name the container running the kubectl image `shell`.  Make the shell container run the shell command `sleep infinity`.
+1. Create a pod ``mp-hello``{{copy}} with three containers, each with image ``bitnami/nginx``{{copy}}, ``bitnami/kubectl``{{copy}} and ``bitnami/consul``{{copy}}, respectively. Name the container running the kubectl image ``shell``{{copy}}.  Make the shell container run the shell command ``sleep infinity``{{copy}}.
 
     ```examiner:execute-test
     name: mc-pod
